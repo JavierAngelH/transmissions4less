@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "transmissions4less.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in transmissions4less.scss */
+.transmissions4less {
+  @include addons;
+  @include transmissions4less;
+}
